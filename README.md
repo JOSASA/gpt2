@@ -156,7 +156,7 @@ The model achieves the following results without any fine-tuning (zero-shot):
   author={Radford, Alec and Wu, Jeff and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya},
   year={2019}
 }
-```
+```dd
 
 <a href="https://huggingface.co/exbert/?model=gpt2">
 	<img width="300px" src="https://cdn-media.huggingface.co/exbert/button.png">
