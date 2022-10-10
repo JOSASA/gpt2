@@ -2,8 +2,27 @@
 language: en
 tags:
 - exbert
-
 license: mit
+model-index:
+- name: gpt2
+  results:
+  - task:
+      type: zero-shot-classification
+      name: Zero-Shot Text Classification
+    dataset:
+      name: phpthinh/exampletx
+      type: phpthinh/exampletx
+      config: toxic
+      split: test
+    metrics:
+    - name: Accuracy
+      type: accuracy
+      value: 0.11
+      verified: true
+    - name: Loss
+      type: loss
+      value: 10.726809239169857
+      verified: true
 ---
 
 
