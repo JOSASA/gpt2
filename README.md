@@ -2,8 +2,27 @@
 language: en
 tags:
 - exbert
-
 license: mit
+model-index:
+- name: gpt2
+  results:
+  - task:
+      type: zero-shot-classification
+      name: Zero-Shot Text Classification
+    dataset:
+      name: mathemakitten/winobias_antistereotype_test
+      type: mathemakitten/winobias_antistereotype_test
+      config: mathemakitten--winobias_antistereotype_test
+      split: test
+    metrics:
+    - name: Accuracy
+      type: accuracy
+      value: 0.47815533980582525
+      verified: true
+    - name: Loss
+      type: loss
+      value: 0.8833252791257609
+      verified: true
 ---
 
 
