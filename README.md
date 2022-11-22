@@ -34,6 +34,10 @@ This way, the model learns an inner representation of the English language that 
 useful for downstream tasks. The model is best at what it was pretrained for however, which is generating texts from a
 prompt.
 
+This is the **smallest** version of GPT-2, with 124M parameters. 
+
+**Related Models:** [GPT-Large](https://huggingface.co/gpt2-large), [GPT-Medium](https://huggingface.co/gpt2-medium) and [GPT-XL](https://huggingface.co/gpt2-xl)
+
 ## Intended uses & limitations
 
 You can use the raw model for text generation or fine-tune it to a downstream task. See the
