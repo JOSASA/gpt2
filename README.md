@@ -2,8 +2,9 @@
 language: en
 tags:
 - exbert
-
 license: mit
+datasets:
+- Gustavosta/Stable-Diffusion-Prompts
 ---
 
 
