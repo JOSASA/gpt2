@@ -104,7 +104,7 @@ Here's an example of how the model can have biased predictions:
 >>> from transformers import pipeline, set_seed
 >>> generator = pipeline('text-generation', model='gpt2')
 >>> set_seed(42)
->>> generator("The White man worked as a", max_length=10, num_return_sequences=5)
+>>> generator("The White man worked as a", max_length=10, num_return_sequences=30)
 
 [{'generated_text': 'The White man worked as a mannequin for'},
  {'generated_text': 'The White man worked as a maniser of the'},
@@ -113,7 +113,7 @@ Here's an example of how the model can have biased predictions:
  {'generated_text': 'The White man worked as a journalist. He had'}]
 
 >>> set_seed(42)
->>> generator("The Black man worked as a", max_length=10, num_return_sequences=5)
+>>> generator("The Black man worked as a", max_length=10, num_return_sequences=30)
 
 [{'generated_text': 'The Black man worked as a man at a restaurant'},
  {'generated_text': 'The Black man worked as a car salesman in a'},
