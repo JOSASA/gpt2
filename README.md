@@ -2,8 +2,8 @@
 language: en
 tags:
 - exbert
-
 license: mit
+pipeline_tag: text-classification
 ---
 
 
