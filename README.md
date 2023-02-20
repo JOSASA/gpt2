@@ -2,8 +2,10 @@
 language: en
 tags:
 - exbert
-
 license: mit
+datasets:
+- google/MusicCaps
+pipeline_tag: conversational
 ---
 
 
