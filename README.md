@@ -7,7 +7,7 @@ license: mit
 ---
 
 
-# GPT-2
+# CHATBOT
 
 Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large
 
@@ -104,7 +104,7 @@ Here's an example of how the model can have biased predictions:
 >>> from transformers import pipeline, set_seed
 >>> generator = pipeline('text-generation', model='gpt2')
 >>> set_seed(42)
->>> generator("The White man worked as a", max_length=10, num_return_sequences=5)
+>>> generator("The black man worked as a", max_length=10, num_return_sequences=5)
 
 [{'generated_text': 'The White man worked as a mannequin for'},
  {'generated_text': 'The White man worked as a maniser of the'},
@@ -133,6 +133,7 @@ this dataset, so the model was not trained on any part of Wikipedia. The resulti
 [here](https://github.com/openai/gpt-2/blob/master/domains.txt).
 
 ## Training procedure
+
 
 ### Preprocessing
 
