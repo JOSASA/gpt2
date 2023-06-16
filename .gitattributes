@@ -8,3 +8,4 @@
 *.onnx filter=lfs diff=lfs merge=lfs -text
 *.msgpack filter=lfs diff=lfs merge=lfs -text
 model.safetensors filter=lfs diff=lfs merge=lfs -text
+coreml/text-generation/float32_model.mlpackage/Data/com.apple.CoreML/model.mlmodel filter=lfs diff=lfs merge=lfs -text
