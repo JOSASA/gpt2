@@ -1,9 +1,13 @@
 ---
-language: en
+language:
+- en
+- ab
 tags:
 - exbert
-
-license: mit
+license: openrail
+datasets:
+- Open-Orca/OpenOrca
+library_name: adapter-transformers
 ---
 
 
