@@ -32,7 +32,7 @@
       "max_length": 50
     }
   },
-  "transformers_version": "4.30.2",
+  "transformers_version": "4.34.0",
   "use_cache": true,
   "vocab_size": 50257
 }
