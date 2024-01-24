@@ -2,8 +2,9 @@
 language: en
 tags:
 - exbert
-
 license: mit
+datasets:
+- fka/awesome-chatgpt-prompts
 ---
 
 
