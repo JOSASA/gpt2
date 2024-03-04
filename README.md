@@ -1,9 +1,111 @@
 ---
 language: en
+license: mit
 tags:
 - exbert
-
-license: mit
+model-index:
+- name: gpt2
+  results:
+  - task:
+      type: text-generation
+      name: Text Generation
+    dataset:
+      name: AI2 Reasoning Challenge (25-Shot)
+      type: ai2_arc
+      config: ARC-Challenge
+      split: test
+      args:
+        num_few_shot: 25
+    metrics:
+    - type: acc_norm
+      value: 22.01
+      name: normalized accuracy
+    source:
+      url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard?query=openai-community/gpt2
+      name: Open LLM Leaderboard
+  - task:
+      type: text-generation
+      name: Text Generation
+    dataset:
+      name: HellaSwag (10-Shot)
+      type: hellaswag
+      split: validation
+      args:
+        num_few_shot: 10
+    metrics:
+    - type: acc_norm
+      value: 31.53
+      name: normalized accuracy
+    source:
+      url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard?query=openai-community/gpt2
+      name: Open LLM Leaderboard
+  - task:
+      type: text-generation
+      name: Text Generation
+    dataset:
+      name: MMLU (5-Shot)
+      type: cais/mmlu
+      config: all
+      split: test
+      args:
+        num_few_shot: 5
+    metrics:
+    - type: acc
+      value: 25.83
+      name: accuracy
+    source:
+      url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard?query=openai-community/gpt2
+      name: Open LLM Leaderboard
+  - task:
+      type: text-generation
+      name: Text Generation
+    dataset:
+      name: TruthfulQA (0-shot)
+      type: truthful_qa
+      config: multiple_choice
+      split: validation
+      args:
+        num_few_shot: 0
+    metrics:
+    - type: mc2
+      value: 40.69
+    source:
+      url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard?query=openai-community/gpt2
+      name: Open LLM Leaderboard
+  - task:
+      type: text-generation
+      name: Text Generation
+    dataset:
+      name: Winogrande (5-shot)
+      type: winogrande
+      config: winogrande_xl
+      split: validation
+      args:
+        num_few_shot: 5
+    metrics:
+    - type: acc
+      value: 50.43
+      name: accuracy
+    source:
+      url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard?query=openai-community/gpt2
+      name: Open LLM Leaderboard
+  - task:
+      type: text-generation
+      name: Text Generation
+    dataset:
+      name: GSM8k (5-shot)
+      type: gsm8k
+      config: main
+      split: test
+      args:
+        num_few_shot: 5
+    metrics:
+    - type: acc
+      value: 0.68
+      name: accuracy
+    source:
+      url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard?query=openai-community/gpt2
+      name: Open LLM Leaderboard
 ---
 
 
@@ -165,3 +267,17 @@ The model achieves the following results without any fine-tuning (zero-shot):
 <a href="https://huggingface.co/exbert/?model=gpt2">
 	<img width="300px" src="https://cdn-media.huggingface.co/exbert/button.png">
 </a>
+
+# [Open LLM Leaderboard Evaluation Results](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+Detailed results can be found [here](https://huggingface.co/datasets/open-llm-leaderboard/details_openai-community__gpt2)
+
+|             Metric              |Value|
+|---------------------------------|----:|
+|Avg.                             |28.53|
+|AI2 Reasoning Challenge (25-Shot)|22.01|
+|HellaSwag (10-Shot)              |31.53|
+|MMLU (5-Shot)                    |25.83|
+|TruthfulQA (0-shot)              |40.69|
+|Winogrande (5-shot)              |50.43|
+|GSM8k (5-shot)                   | 0.68|
+
