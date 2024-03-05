@@ -1,9 +1,24 @@
 ---
+_name_or_path: CustomGPT2ConversationalModel
+torch_dtype: float32
+transformers_version: 4.37.2
 language: en
-tags:
-- exbert
+license: apache-2.0
+metrics:
+  - perplexity
+  - accuracy
+pipeline_tag: text-generation
+widget:
+  - text: "Write a story about a character who discovers a mysterious artifact that grants them unexpected powers."
+  - text: "Compose a poem about the beauty of nature and the passage of time."
+  - text: "Generate a promotional announcement for a new technology that revolutionizes communication across cultures."
+  - text: "Create a conversation between two individuals from different backgrounds discussing their dreams and aspirations."
+  - text: "Draft an article exploring the role of technology in shaping future societies."
+  - text: "Write a motivational speech encouraging people to pursue their passions and overcome obstacles."
+  - text: "Imagine a world where magic is real and write a narrative about a quest to unlock its secrets."
+  - text: "Compose a letter from a historical figure to a contemporary artist, sharing insights on creativity and innovation."
+  - text: "Create a recipe for a delicious meal using only ingredients found in a futuristic sci-fi setting."
 
-license: mit
 ---
 
 
