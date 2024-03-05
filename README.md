@@ -1,9 +1,18 @@
 ---
 language: en
 tags:
-- exbert
-
-license: mit
+  - exbert
+pipeline_tag: text-generation
+widget:
+  - text: "Write a story about a character who discovers a mysterious artifact that grants them unexpected powers."
+  - text: "Compose a poem about the beauty of nature and the passage of time."
+  - text: "Generate a promotional announcement for a groundbreaking technology that enhances communication across cultures."
+  - text: "Create a dialogue between two individuals from diverse backgrounds discussing their dreams and aspirations."
+  - text: "Draft an article exploring the impact of technology on shaping future societies."
+  - text: "Write a motivational speech inspiring people to pursue their passions and overcome challenges."
+  - text: "Imagine a fantastical world where magic exists and craft a narrative about a quest to uncover its mysteries."
+  - text: "Compose a letter from a renowned historical figure to a modern-day artist, sharing insights on creativity and innovation."
+  - text: "Develop a recipe for a delectable meal using only ingredients found in a futuristic sci-fi setting."
 ---
 
 
