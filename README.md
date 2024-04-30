@@ -1,9 +1,15 @@
 ---
-language: en
+language:
+- en
+- ar
 tags:
 - exbert
-
+- not-for-all-audiences
 license: mit
+datasets:
+- HuggingFaceFW/fineweb
+library_name: allennlp
+pipeline_tag: text-to-speech
 ---
 
 
