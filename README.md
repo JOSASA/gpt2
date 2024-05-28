@@ -1,9 +1,20 @@
 ---
-language: en
+language:
+- en
+- pt
 tags:
 - exbert
-
+- legal
+- text-generation-inference
 license: mit
+datasets:
+- nvidia/ChatQA-Training-Data
+- HuggingFaceFW/fineweb
+metrics:
+- accuracy
+- character
+library_name: fasttext
+pipeline_tag: question-answering
 ---
 
 
