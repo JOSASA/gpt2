@@ -1,9 +1,13 @@
+
+
 ---
 language: en
 tags:
 - exbert
 
 license: mit
+
+base_model: openai-community/gpt2
 ---
 
 
