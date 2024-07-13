@@ -1,9 +1,11 @@
 ---
-language: en
+language:
+- ru
 tags:
 - exbert
-
 license: mit
+datasets:
+- zakharrudy/NutriPal
 ---
 
 
