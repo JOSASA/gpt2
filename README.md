@@ -1,8 +1,8 @@
 ---
-language: en
+language:
+- ar
 tags:
 - exbert
-
 license: mit
 ---
 
