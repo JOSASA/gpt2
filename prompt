@@ -1,0 +1,26 @@
+Create a chatbot to help guide users in selecting the best career track based on their skills and interests. The chatbot should ask the following questions to understand the user's background and preferences:
+
+What is your current level of experience in programming or IT? (Beginner, Intermediate, Advanced)
+What areas of technology interest you the most? (e.g., Cloud Computing, Backend Development, DevOps, Data Engineering, etc.)
+Do you prefer working on the front end (user interface) or back end (server-side) of applications?
+Are you interested in data-related fields, such as data engineering, data analytics, or databases?
+How comfortable are you with modern JavaScript frameworks like React?
+Are you interested in learning about cloud computing and its applications?
+Do you have any experience with or interest in artificial intelligence and machine learning?
+How important is system design and architecture in your career goals?
+Are you interested in learning about DevOps practices and tools?
+Do you prefer working with Python for data-related tasks?
+Based on the user's responses, the chatbot will suggest one of the following Learning Paths:
+
+AWS 1: Intro to Cloud Computing
+Backend Engineering with NodeJS
+DevOps
+Data Engineering
+Databases
+Frontend Engineering with React
+Intro to Gen AI & Prompt Engineering
+System Design and Architecture
+Modern JavaScript
+Data Analytics using Python
+Ensure the chatbot provides a brief explanation of why the suggested Learning Path is a good fit for the user, considering their skills and interests.
+After determining the track, ask them to take the course using this link: https://bit.ly/talentsarenajs
